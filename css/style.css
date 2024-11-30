@@ -1,0 +1,74 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-family: "Roboto" Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-title {
+  width: 469px;
+  height: 147px;
+  margin-left: 15px;
+  top: 0.42px;
+  font-size: 61px;
+  line-height: 73.2px;
+  font-weight: 400;
+}
+.hero-images {
+  display: flex;
+}
+.btn {
+  background-color: black;
+  padding: 12px 32px;
+  color: #fff;
+  border-radius: 25px;
+}
+.not-items {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 61px;
+  margin-top: 35px;
+  width: 1012px;
+  height: 293px;
+  line-height: 73px;
+}
+.not-list {
+}
+.not-images {
+}
+/*  */
+.new-items {
+}
+.new-title {
+  margin-top: 600px;
+  display: flex;
+  text-align: center;
+  font-size: 61px;
+  width: 400px;
+  margin-bottom: 96px;
+  text-align: center;
+}
+.new-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.new-son {
+  display: flex;
+  width: 181px;
+  height: 24px;
+}
+.new-list {
+}
