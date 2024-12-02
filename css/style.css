@@ -50,6 +50,10 @@ body {
 }
 /*  */
 .new-items {
+  display: flex;
+  width: 1270px;
+  height: 636x;
+  top: 35.16px;
 }
 .new-title {
   margin-top: 600px;
@@ -64,11 +68,19 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  text-align: center;
+  margin-top: auto;
 }
 .new-son {
   display: flex;
   width: 181px;
   height: 24px;
+  text-align: center;
+  margin-top: auto;
 }
 .new-list {
+  width: 605px;
+  height: 342px;
+  padding: 0.1px 15px;
+  padding-top: 0.16px;
 }
